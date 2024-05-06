@@ -36,7 +36,7 @@ const USER_CONFIG = {
     weather: true,
 
     /** 节假日 */
-    
+    holidaytts: true,
 
     /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -110,10 +110,10 @@ const USER_CONFIG = {
       name: '英勇帅气的懒羊羊大人',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'o8cRk6RipfqP9f2Vcu7dyXKqarms',
+      id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'wzd_O_o-vWtAeBDikF9VmOYOhMflVar4EDqCdRi_g_U',
+      useTemplateId: 'YblfEDbfIDZVi12MMxXU3LyE1L9hdA1tN48aM6M6tOA',
       // 所在省份或城市，也可以不填
       province: '甘肃',
       // 所在城市或县区
@@ -144,7 +144,7 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2023-09-01' },
+        { keyword: 'love_day', date: '2023-09-06' },
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
         // // 退伍日
