@@ -49,17 +49,17 @@ const USER_CONFIG = {
     earthyLoveWords: true,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: true,
+    // momentCopyrighting: true,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: true,
+    // poisonChickenSoup: true,
     
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     poetry: true,
 
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    horoscope: true,
+    // horoscope: true,
   
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -82,7 +82,7 @@ const USER_CONFIG = {
     eveningGreeting: true,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: 3,
+    // weather: 3,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     networkHot: 0,
