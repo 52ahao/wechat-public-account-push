@@ -232,7 +232,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
-      useTemplateId: 'wzd_O_o-vWtAeBDikF9VmOYOhMflVar4EDqCdRi_g_U',
+      useTemplateId: 'YXiaCi1gnfEPlNVfP57_7_m_kuZtuob5xV5_h_u-Hgs',
       province: '甘肃',
       city: '兰州',
       horoscopeDate: '02-23',
