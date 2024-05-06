@@ -37,38 +37,38 @@ const USER_CONFIG = {
 
     /** 节假日 */
     // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    CIBA: true,
+    CIBA: false,
     
     // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    oneTalk: true,
+    oneTalk: false,
     
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    earthyLoveWords: true,
+    earthyLoveWords: false,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: true,
+    poisonChickenSoup: false,
     
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poetry: true,
+    poetry: false,
 
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    horoscope: true,
+    horoscope: false,
   
     /** 生日消息和节日消息 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    birthdayMessage: true,
+    birthdayMessage: false,
   
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    courseSchedule: true,
+    courseSchedule: false,
   },
   
   TIAN_API: {
@@ -94,7 +94,7 @@ const USER_CONFIG = {
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
   
   /** 每日一言 */
   // 每日一言的内容类型
@@ -260,9 +260,9 @@ const USER_CONFIG = {
    * */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '咸阳',
+  PROVINCE: '甘肃',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '长武',
+  CITY: '兰州',
 
   /** 重要节日相关 */
 
