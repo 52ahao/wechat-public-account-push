@@ -4,7 +4,7 @@ const TEMPLATE_CONFIG = [
     id: '0001',
     title: '亲爱的妍妍大王, 早上好',
     desc: `
-    🗓️{{date.DATA}}
+🗓️{{date.DATA}}
 城市：{{city.DATA}}
 天气☁️：{{weather.DATA}}
 温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}}
