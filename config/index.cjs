@@ -113,7 +113,7 @@ const USER_CONFIG = {
       id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'YXiaCi1gnfEPlNVfP57_7_m_kuZtuob5xV5_h_u-Hgs',
+      useTemplateId: '	K-QgXc_TaEdvqauALaKhNWU_DqvlJIwvYUaqOmxdewI',
       // 所在省份或城市，也可以不填
       province: '甘肃',
       // 所在城市或县区
@@ -229,19 +229,19 @@ const USER_CONFIG = {
     //   customizedDateList: [],
     //   courseSchedule: null
     // },
-    {
-      name: '自己',
-      id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
-      useTemplateId: 'YXiaCi1gnfEPlNVfP57_7_m_kuZtuob5xV5_h_u-Hgs',
-      province: '甘肃',
-      city: '兰州',
-      horoscopeDate: '02-23',
-      horoscopeDateType: '今日',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
+    // {
+    //   name: '自己',
+    //   id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
+    //   useTemplateId: 'YXiaCi1gnfEPlNVfP57_7_m_kuZtuob5xV5_h_u-Hgs',
+    //   province: '甘肃',
+    //   city: '兰州',
+    //   horoscopeDate: '02-23',
+    //   horoscopeDateType: '今日',
+    //   openUrl: 'https://wangxinleo.cn',
+    //   festivals: [],
+    //   customizedDateList: [],
+    //   courseSchedule: null
+    // },
     // {
     //   name: '老婆3',
     //   id: '',
