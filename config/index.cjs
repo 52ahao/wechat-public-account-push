@@ -21,7 +21,48 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o8cRk6RipfqP9f2Vcu7dyXKqarms',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'wzd_O_o-vWtAeBDikF9VmOYOhMflVar4EDqCdRi_g_U',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '2-29',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '生日', name: '宝贝', year: '2005', date: '02-29',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+         {
+           type: '*生日', name: '小浩子', year: '2005', date: '01-15',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2023', date: '09-01',
+        },
+        {
+      // 想要发送的人的名字
+      name: '自己',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: '{
+      // 想要发送的人的名字
+      name: '宝贝',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'wzd_O_o-vWtAeBDikF9VmOYOhMflVar4EDqCdRi_g_U',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '2-29',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '生日', name: '宝贝', year: '2005', date: '02-29',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+         {
+           type: '*生日', name: '小浩子', year: '2005', date: '01-15',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2023', date: '09-01',
+        },',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'wzd_O_o-vWtAeBDikF9VmOYOhMflVar4EDqCdRi_g_U',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -48,7 +89,40 @@ const USER_CONFIG = {
       ],
     },
   ],
+TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: 'e06ff7d3db8c19337c7ed96624a0b652',
+    
+    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: true,
+  
+    // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    eveningGreeting: true,
+  
+    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 3,
+  
+    // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    networkHot: 0,
+  
+    // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
+    networkHotType: 'default',
+  },
+  
+  /** 是否给文字设置多彩颜色, 和emoji不兼容 */
+  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
+  IS_SHOW_COLOR: false,
+  
+  /** 每日一言 */
+  // 每日一言的内容类型
+  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
+  LITERARY_PREFERENCE: '',
+  
 
+  /**
+   * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
+   */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'VeI0gySKGw12IeTOiwy8CyNypq5EHlaWExaiowSyxS4',
