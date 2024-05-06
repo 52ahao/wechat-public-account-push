@@ -113,7 +113,7 @@ const USER_CONFIG = {
       id: 'o8cRk6RipfqP9f2Vcu7dyXKqarms',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'cSxypFkDcYjty2M6Zn118ddteYU0H6wC2r_TDVjNTHQ',
+      useTemplateId: '4PfrqeH_jN_2fEie5czXtwBylVrQlkBAectObplFsiQ',
       // 所在省份或城市，也可以不填
       province: '甘肃',
       // 所在城市或县区
@@ -287,13 +287,13 @@ const USER_CONFIG = {
     // ...
      {
       // 想要发送的人的名字
-      name: '英勇帅气的懒羊羊大人',
+      name: '自己',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'S-3zka3NCVswcOihypjn_txHwZfvrzVcmj14DeMFUSM',
+      useTemplateId: '4PfrqeH_jN_2fEie5czXtwBylVrQlkBAectObplFsiQ',
       // 所在省份或城市，也可以不填
       province: '甘肃',
       // 所在城市或县区
@@ -540,7 +540,7 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+    // { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
     // 这样配置的话，就会每次随机选一句话发送
     {
       keyword: 'lover_prattle',
