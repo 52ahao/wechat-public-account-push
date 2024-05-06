@@ -113,7 +113,7 @@ const USER_CONFIG = {
       id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'YblfEDbfIDZVi12MMxXU3LyE1L9hdA1tN48aM6M6tOA',
+      useTemplateId: '8Q7C5ANbcsOu3OM-AQmiLWsKL6081U3r1fWrITHuVYE',
       // 所在省份或城市，也可以不填
       province: '甘肃',
       // 所在城市或县区
@@ -158,7 +158,7 @@ const USER_CONFIG = {
         // 单双周的基准
         benchmark: {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
-          date: '2022-09-23',
+          date: '2024-05-06',
           // 该日期是否为单周
           isOdd: true
         },
