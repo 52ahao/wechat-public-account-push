@@ -86,7 +86,7 @@ const USER_CONFIG = {
     weather: 3,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 3,
+    networkHot: 0,
   
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
     networkHotType: 'default',
@@ -94,7 +94,7 @@ const USER_CONFIG = {
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: false,
+  IS_SHOW_COLOR: true,
   
   /** 每日一言 */
   // 每日一言的内容类型
@@ -108,15 +108,15 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '妍妍大王',
+      name: '老婆',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: 'c8UHBCVYPuOUD3Xkn1L_tNvcNi9SP60ih-oxiJT9fbM',
+      useTemplateId: 'JUVxwSN82swKvhx7_PXCndAEWuf8OGnBTo3UTzX1Oek',
       // 所在省份或城市，也可以不填
-      province: '甘肃',
+      province: '',
       // 所在城市或县区
       city: '兰州',
       // 新历生日, 仅用作获取星座运势, 格式必须
@@ -217,45 +217,8 @@ const USER_CONFIG = {
         }
       },
     },
-    {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    }
+   
+   
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -266,7 +229,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'VeI0gySKGw12IeTOiwy8CyNypq5EHlaWExaiowSyxS4',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -275,7 +238,7 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'c8UHBCVYPuOUD3Xkn1L_tNvcNi9SP60ih-oxiJT9fbM',
+      id: 'o8cRk6cSE3VVG5Pd_SxbslSxCQCc',
     }
     // 你可以不断按格式往下增加
     // ...
@@ -289,7 +252,7 @@ const USER_CONFIG = {
    * 天气相关
    * 
    * 可以填 省份或者市区， PROVINCE 的区域必须包含 CITY
-   * 例如： PROVINCE：'甘肃' CITY：'兰州'
+   * 例如： PROVINCE：'广东' CITY：'惠州'
    * 例如： PROVINCE：'咸阳' CITY：'长武'
    *
    * 甚至 PROVINCE 可以不填
@@ -391,3 +354,4 @@ const USER_CONFIG = {
 }
 
 module.exports = USER_CONFIG
+
