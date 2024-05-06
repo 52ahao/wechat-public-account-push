@@ -432,7 +432,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: 'cSxypFkDcYjty2M6Zn118ddteYU0H6wC2r_TDVjNTHQ',
+  CALLBACK_TEMPLATE_ID: 'VeI0gySKGw12IeTOiwy8CyNypq5EHlaWExaiowSyxS4',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
